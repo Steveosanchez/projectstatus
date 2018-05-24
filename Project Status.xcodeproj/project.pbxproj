@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C2C51BB20903C7F00EF1BCF /* NewProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2C51BA20903C7F00EF1BCF /* NewProjectViewController.swift */; };
+		2C5A112D207EDD2C008285B9 /* Project+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5A112B207EDD2C008285B9 /* Project+CoreDataClass.swift */; };
+		2C5A112E207EDD2C008285B9 /* Project+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5A112C207EDD2C008285B9 /* Project+CoreDataProperties.swift */; };
+		2C5A1130207F0A04008285B9 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5A112F207F0A04008285B9 /* WindowController.swift */; };
+		2C5A1131207F0A04008285B9 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5A112F207F0A04008285B9 /* WindowController.swift */; };
+		2C5A1132207F0A04008285B9 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5A112F207F0A04008285B9 /* WindowController.swift */; };
 		2CF4857120748EB700FC29E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF4857020748EB700FC29E4 /* AppDelegate.swift */; };
 		2CF4857320748EB700FC29E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF4857220748EB700FC29E4 /* ViewController.swift */; };
 		2CF4857620748EB700FC29E4 /* Project_Status.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CF4857420748EB700FC29E4 /* Project_Status.xcdatamodeld */; };
@@ -34,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C2C51BA20903C7F00EF1BCF /* NewProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProjectViewController.swift; sourceTree = "<group>"; };
+		2C5A112B207EDD2C008285B9 /* Project+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2C5A112C207EDD2C008285B9 /* Project+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2C5A112F207F0A04008285B9 /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 		2CF4856D20748EB700FC29E4 /* Project Status.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project Status.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CF4857020748EB700FC29E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CF4857220748EB700FC29E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +88,8 @@
 		2CF4856420748EB700FC29E4 = {
 			isa = PBXGroup;
 			children = (
+				2C5A112B207EDD2C008285B9 /* Project+CoreDataClass.swift */,
+				2C5A112C207EDD2C008285B9 /* Project+CoreDataProperties.swift */,
 				2CF4856F20748EB700FC29E4 /* Project Status */,
 				2CF4858520748EB800FC29E4 /* Project StatusTests */,
 				2CF4859020748EB800FC29E4 /* Project StatusUITests */,
@@ -105,6 +117,8 @@
 				2CF4857C20748EB800FC29E4 /* Info.plist */,
 				2CF4857D20748EB800FC29E4 /* Project_Status.entitlements */,
 				2CF4857420748EB700FC29E4 /* Project_Status.xcdatamodeld */,
+				2C5A112F207F0A04008285B9 /* WindowController.swift */,
+				2C2C51BA20903C7F00EF1BCF /* NewProjectViewController.swift */,
 			);
 			path = "Project Status";
 			sourceTree = "<group>";
@@ -195,6 +209,11 @@
 				TargetAttributes = {
 					2CF4856C20748EB700FC29E4 = {
 						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 					2CF4858120748EB800FC29E4 = {
 						CreatedOnToolsVersion = 9.3;
@@ -258,6 +277,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CF4857320748EB700FC29E4 /* ViewController.swift in Sources */,
+				2C5A1130207F0A04008285B9 /* WindowController.swift in Sources */,
+				2C5A112D207EDD2C008285B9 /* Project+CoreDataClass.swift in Sources */,
+				2C2C51BB20903C7F00EF1BCF /* NewProjectViewController.swift in Sources */,
+				2C5A112E207EDD2C008285B9 /* Project+CoreDataProperties.swift in Sources */,
 				2CF4857120748EB700FC29E4 /* AppDelegate.swift in Sources */,
 				2CF4857620748EB700FC29E4 /* Project_Status.xcdatamodeld in Sources */,
 			);
@@ -268,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CF4858720748EB800FC29E4 /* Project_StatusTests.swift in Sources */,
+				2C5A1131207F0A04008285B9 /* WindowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CF4859220748EB800FC29E4 /* Project_StatusUITests.swift in Sources */,
+				2C5A1132207F0A04008285B9 /* WindowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
